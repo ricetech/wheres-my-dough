@@ -14,9 +14,9 @@
     },
     "c": {
       "customTemplates": {
-        "component": "src/templates/component/TemplateName.tsx",
-        "style": "src/templates/component/_TemplateName.module.scss",
-        "index": "src/templates/component/index.ts"
+        "component": "templates/component/TemplateName.tsx",
+        "style": "templates/component/_TemplateName.module.scss",
+        "index": "templates/component/index.ts"
       },
       "path": "src/components",
       "withStyle": true,
@@ -27,10 +27,10 @@
     },
     "lp": {
       "customTemplates": {
-        "component": "src/templates/lazyPage/TemplateNamePage.tsx",
-        "style": "src/templates/lazyPage/_TemplateName.module.scss",
-        "lazy": "src/templates/lazyPage/TemplateNamePage.lazy.tsx",
-        "index": "src/templates/lazyPage/index.ts"
+        "component": "templates/lazyPage/TemplateNamePage.tsx",
+        "style": "templates/lazyPage/_TemplateName.module.scss",
+        "lazy": "templates/lazyPage/TemplateNamePage.lazy.tsx",
+        "index": "templates/lazyPage/index.ts"
       },
       "path": "src/pages",
       "withStyle": true,
@@ -41,9 +41,9 @@
     },
     "p": {
       "customTemplates": {
-        "component": "src/templates/page/TemplateNamePage.tsx",
-        "style": "src/templates/page/_TemplateName.module.scss",
-        "index": "src/templates/page/index.ts"
+        "component": "templates/page/TemplateNamePage.tsx",
+        "style": "templates/page/_TemplateName.module.scss",
+        "index": "templates/page/index.ts"
       },
       "path": "src/pages",
       "withStyle": true,
