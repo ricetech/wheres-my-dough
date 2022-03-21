@@ -1,0 +1,29 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build_test_lint:
+    name: Build, Test, Lint
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node_version: [16]
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node_version }}
+        uses: actions/setup-node@v1
+        with:
+          node_version: ${{ matrix.node_version }}
+
+      - name: Install npm packages
+        run: npm ci
+      - name: Lint
+        run: npm run lint
+      - name: Prettier
+        run: npx prettier --check src/**/*.ts{,x}
+      #- name: Test
+      #  run: npm run test
+      - name: Build
+        run: npm run build
