@@ -15,7 +15,7 @@
     "c": {
       "customTemplates": {
         "component": "src/templates/component/TemplateName.tsx",
-        "style": "src/templates/component/TemplateName.module.scss",
+        "style": "src/templates/component/_TemplateName.module.scss",
         "index": "src/templates/component/index.ts"
       },
       "path": "src/components",
@@ -28,7 +28,7 @@
     "lp": {
       "customTemplates": {
         "component": "src/templates/lazyPage/TemplateNamePage.tsx",
-        "style": "src/templates/lazyPage/TemplateName.module.scss",
+        "style": "src/templates/lazyPage/_TemplateName.module.scss",
         "lazy": "src/templates/lazyPage/TemplateNamePage.lazy.tsx",
         "index": "src/templates/lazyPage/index.ts"
       },
@@ -42,7 +42,7 @@
     "p": {
       "customTemplates": {
         "component": "src/templates/page/TemplateNamePage.tsx",
-        "style": "src/templates/page/TemplateName.module.scss",
+        "style": "src/templates/page/_TemplateName.module.scss",
         "index": "src/templates/page/index.ts"
       },
       "path": "src/pages",
